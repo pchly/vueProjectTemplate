@@ -10,11 +10,11 @@ const routes = [
       // path: '/',
       // component: Home
       // },
-      // {
-      //   path:'/',
-      //   //路由转接redirect
-      //   redirect: '/msg'
-      // },
+      {
+        path:'/',
+        //路由转接redirect
+        redirect: '/msg'
+      },
       //消息通知,测试WebSocket
       {
         path:'/msg',
